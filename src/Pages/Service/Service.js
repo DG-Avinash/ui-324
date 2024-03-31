@@ -7,8 +7,7 @@ import axios from "axios";
 const Service=()=>
 {
   const[studDetails,setStudDetails]=useState();
-  console.log('studDetails@@@@@@',studDetails);
-   
+    
 const getCustomersData = () => {
   axios
       .get("https://jsonplaceholder.typicode.com/photos")
@@ -25,7 +24,6 @@ const getCustomersData = () => {
 const getStudentDetails=async()=>{
    try{
    const response= await getaxiosStudentDetails();
-   console.log('response@@@',response)
     if(response.statusCode===200)
     {
       setStudDetails(response);
