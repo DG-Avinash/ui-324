@@ -28,18 +28,6 @@ const Gallery=()=>
 
  const navigate=useNavigate(); //
 
-//  const pageRedirct=(studData)=>{
-//  console.log('studData@@@@',studData);
-//   // localStorage.setItem('Id',studData.sid)
-//   // localStorage.setItem('name',studData.name)
-//   // localStorage.setItem('Email',studData.Email)
-//   // localStorage.setItem('mobile',studData.Mobile)
-//   // localStorage.setItem('Gender',studData.Gender)
-//   // localStorage.setItem('Address',studData.Address)
-//   // let path='/student_details';
-//   //  navigate(path)
-//  }
-
 /************************* filter ****************************/
 const filterData = studData?.filter((item) =>item)
 const finalFilterData=filterData.map((item)=>item.name)
