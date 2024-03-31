@@ -1,70 +1,175 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ 
+1. How to create react app 
+2. App Structer
+3. Base component (Default component)
+4. Application Execution 
+5. component creation 
+6. component import 
+7. parent component  - 
+8. child component 
+9. Props 
+10. Data pasing from parent to child componets (using props)
+11. conditinal statemnt handling (using flag value)
+12. State 
+13. routes 
+------------------------------------------------------------
+   Assignment- 1
+-----------------------------------------------------------
+14. SASS 
+15. Bootstrap
+----------------------------------------------------------
+  Assignment -2 
+---------------------------------------------------------
+15. Event Handling 
+16. Methods(Map,Filter,slice) - 07-02-2024
+17. JSon Data Creation 
+18. API Intigration (Moc Data) - 10/02/2024
 
-## Available Scripts
+--------------------------------------------------------------
+ Assignment-3
+ ----------------------------------------------------
+19. Hooks (useState,UseEffect,context,usecallback,history, redirect,usememo,) -10-02-2024
+21. Advance Routing - 08-02-2024 & 09-02-2024
+22. Contex API - 14-02-2024 
+23. Local Session Storage handling - 15-02-2024
+24. Live API Intigration (API) - 16-02-2024
+25. Redux - 17 & 18 
 
-In the project directory, you can run:
+------------------------------------------------------------
+ Assignment- 4
+--------------------------------------------------------------
+25. Matrial UI  
+-----------------------------------------------------------
 
-### `npm start`
+Assignmet-5 (Finals)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+--------------------------------------------------------------
+-  templete Intigration (html,css,bootstrap,Js)
+-  templete Intigration (React Js)
+-  React Js Project Hosting
+-  GitHub
+-  Jira Board
+-  Open AI (ChatGPT) 
+-------------------------------------------------------------
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ 25/02/2024
+    
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  ----------------------  API Intigratation ----------------
+ 
+ API - Url 
+ www.developerguru.in/Register- APi Url 
+ POST - 
+ GET  -  
+     Payload - id=4 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    Url | Method | Payload | Preview | Respose | Status (200) /(400) /(500)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Front-End                                   Back-End              Database
+            Request
+JS      -------------> JSON -------------> Back-End -----------> Database
+            (object)   (API)                                        |
+                                                                    |
+            Response                                                |
+Js      <------------- JSON <------------- Back-End <------------ DataBase                                                                     |
+            (Object)   (API)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  Contex API - Vs                     Redux - state management (data)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+                Parent Components (appId)                         contex-API(appId)        
+                       |
+                       |
+   child-1   child-2      child-3     child-4 
+               |
+        child-21  child-22
+                    |
+          child-221 child-222 child-223
+                                  |
+                              child-331 (100)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+ * Redux(lib)- Redux is a conainer which is store a data.(State Management)
+ * FRamework - 
+       1. Angular 
+       2. Vue Js 
+       3. Next Js 
 
-### Advanced Configuration
+  Redux :  State Managemet(Container)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Hotel --> order --> home delivery 
+          
+                
+                          Redux Articture 
 
-### Deployment
+            dispatch
+         | ------------> Store(Data) <----------------------> Reducer  
+       Action               |
+         |                  |
+           <----------------UI(Profile Component)
+                 State
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 GIT HUB 
+        
+        Onbording Process --> 
+
+            QA Team ---> KT(knowledge Transfer)
+
+       - Repositary       ---> ABC                  PQR         XYZ                                 |                    |           | 
+                                |                    |           |
+                             Develop Branch      Develop     Develop
+                                |
+                      Akshda  Avinash Santosh 
+                        |       |        | 
+                   Feature-A  Feature-B Feature-C  
+                        |       |        |  
+                     commit    commit  commit  
+                        |       |        |
+                    push(PR)    PR      PR 
+                        |
+                      Review 
+                        |
+                     comments
+                        |
+                     PR Approved 
+                        |
+                  Merged Develop  

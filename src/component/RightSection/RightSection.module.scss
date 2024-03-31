@@ -1,0 +1,22 @@
+@import '../../Assest//Scss/variable.scss';
+
+.bodyContainRight
+{
+    background-color:  $sectionSecondaryBgColor;
+    height:350px;
+    width:50%;
+    float:left;
+}
+
+.bodyContainRight1{
+    background-color: red;
+    height:50px;
+    width:50%;
+    float:left;
+}
+
+.textLable
+{
+    color: $primaryTextColor;
+    font-family:$sectionFont;
+}

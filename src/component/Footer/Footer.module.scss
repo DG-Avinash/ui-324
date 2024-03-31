@@ -1,0 +1,17 @@
+
+@import '../../Assest/Scss/variable.scss';
+
+.headerBottom
+{
+    background-color: $secondaryBgColor;
+    height:80px;
+    width:100%;
+    float:left;
+}
+
+.textTitle
+{
+    color:$primaryTextColor;
+    font-family:$primaryFont;
+    font-size:20px;
+}

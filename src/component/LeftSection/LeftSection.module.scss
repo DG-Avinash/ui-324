@@ -1,0 +1,14 @@
+@import '../../Assest/Scss/variable.scss';
+
+.bodyContainleft
+{
+    background-color:$sectionPrimaryBgColor;
+    height:350px;
+    width:50%;
+    float:left;
+}
+.textTitle
+{
+    color:$primaryTextColor;
+    font-family:$primaryFont;
+}
